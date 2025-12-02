@@ -15,7 +15,11 @@ $ sudo apt full-upgrade
 
 install gnome
 -------------
-$ sudo apt install gnome-console gnome-disk-utility gnome-session gnome-tweaks
+$ sudo apt install \
+gnome-console \
+gnome-disk-utility \
+gnome-session \
+gnome-tweaks
 
 remove gnome apps
 -----------------
@@ -43,7 +47,20 @@ disable animations in gnome
 
 install apps
 ------------
-$ sudo apt install btop curl fd-find firefox-esr git keychain lm-sensors stow wget wl-clipboard
+$ sudo apt install \
+btop \
+curl \
+eza \
+fd-find \
+firefox-esr \
+fzf \
+git \
+keychain \
+lm-sensors \
+stow \
+wget \
+wl-clipboard \
+zoxide
 
 harden firefox
 --------------
@@ -61,27 +78,10 @@ install csvlens
 - download: https://github.com/YS-L/csvlens/releases
 - install: $ cp /path/to/csvlens ~/.local/bin
 
-install eza
------------
-- https://github.com/eza-community/eza/releases
-- choose: eza_x86_64-unknown-linux-musl.zip
-- install: $ cp /path/to/eza ~/.local/bin
-
-install zoxide
---------------
-$ curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
-
-install fzf
------------
-- https://github.com/junegunn/fzf/releases
-- choose: fzf-**0.67.0**-linux_amd64.tar.gz
-- install: $ cp /path/to/fzf ~/.local/bin
-
 ssh key
 -------
 $ ssh-keygen
-1. add new public key to codeberg
-2. add new public key to github
+- add new public key to github
 
 dotfiles
 --------
