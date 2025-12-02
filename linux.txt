@@ -28,7 +28,12 @@ $ sudo apt autoremove
 
 install caskaydia mono nerd font
 --------------------------------
-$ wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/**v3.4.0**/CascadiaMono.zip && cd ~/.local/share/fonts && unzip CascadiaMono.zip && rm CascadiaMono.zip && fc-cache -f
+$ wget -P ~/.local/share/fonts \
+https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaMono.zip \
+&& cd ~/.local/share/fonts \
+&& unzip CascadiaMono.zip \
+&& rm -f CascadiaMono.zip LICENSE README.md \
+&& fc-cache -f
 
 tweak fonts
 -----------
