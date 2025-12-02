@@ -23,7 +23,11 @@ gnome-tweaks
 
 remove gnome apps
 -----------------
-$ sudo apt purge im-config malcontent yelp
+$ sudo apt purge \
+im-config \
+malcontent \
+yelp
+
 $ sudo apt autoremove
 
 install caskaydia mono nerd font
@@ -53,6 +57,7 @@ disable animations in gnome
 install apps
 ------------
 $ sudo apt install \
+bat \
 btop \
 curl \
 eza \
@@ -66,6 +71,10 @@ stow \
 wget \
 wl-clipboard \
 zoxide
+
+lm-sensors detection
+--------------------
+sudo sensors-detect
 
 harden firefox
 --------------
