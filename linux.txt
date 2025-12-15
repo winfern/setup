@@ -13,12 +13,19 @@ update debian
 $ sudo apt update
 $ sudo apt full-upgrade
 
+install in tty
+--------------
+$ sudo apt install \
+git \
+gnome-console \
+gnome-session \
+
+* reboot * clone this into ~/repos * continue
+
 install gnome
 -------------
 $ sudo apt install \
-gnome-console \
 gnome-disk-utility \
-gnome-session \
 gnome-tweaks
 
 remove gnome apps
@@ -64,7 +71,6 @@ eza \
 fd-find \
 firefox-esr \
 fzf \
-git \
 keychain \
 lm-sensors \
 stow \
