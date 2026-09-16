@@ -74,6 +74,7 @@ fzf \
 keychain \
 lm-sensors \
 stow \
+systemd-timesyncd \
 wget \
 wl-clipboard \
 zoxide
