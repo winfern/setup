@@ -25,12 +25,12 @@ gnome-session \
 install gnome
 -------------
 $ sudo apt install \
-gnome-disk-utility \
 gnome-tweaks
 
 remove gnome apps
 -----------------
 $ sudo apt purge \
+gnome-shell-extension-manager \
 im-config \
 malcontent \
 yelp
