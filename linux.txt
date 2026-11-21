@@ -37,20 +37,20 @@ yelp
 
 $ sudo apt autoremove
 
-install caskaydia mono nerd font
---------------------------------
+install meslo nerd font
+-----------------------
 $ wget -P ~/.local/share/fonts \
-https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaMono.zip \
+https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip \
 && cd ~/.local/share/fonts \
-&& unzip CascadiaMono.zip \
-&& rm -f CascadiaMono.zip LICENSE README.md \
+&& unzip Meslo.zip \
+&& rm -f Meslo.zip LICENSE.txt README.md \
 && fc-cache -f
 
 tweak fonts
 -----------
 1. open tweaks -> fonts
-2. change ui to nfp
-3. rest to nf
+2. change ui to meslolgm propo
+3. rest to meslolgm mono
 
 update timezone
 ---------------
